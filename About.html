@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Team profile cards</title>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="462577704_929766442054098_4167610965584744032_n.jpg" alt="Profile image">
+        </div>
+        <p class="name">Mira Angeles</p>
+        <p>Website Developer</p>
+        <p>I'm Mira, a web developer in this website. With a strong passion for building innovative and effective online solutions, I've honed my skills in HTML and CSS. When not coding, you can find me sketching, painting and sketching..</p>
+        <div class="socials">
+            <button class="github"><i class="fab fa-github"></i></button>
+            <button class="twitter"><i class="fab fa-twitter"></i></button>
+            <button class="pinterest"><i class="fab fa-pinterest-p"></i></button>
+        </div>
+    </div>
+
+ <div class="card">
+        <div class="card-image">
+            <img src="466915572_1109034524229285_8600229112015894071_n.jpg" alt="Profile image">
+        </div>
+        <p class="name">Immar John Peralta</p>
+        <p>Assistant website developer</p>
+        <p>My name is Immar John, and I am excited to introduce myself as the Assistant Developer of this website. As a skilled web developer with a passion for creating innovative and user-friendly online experiences.</p>
+        <div class="socials">
+            <button class="github"><i class="fab fa-github"></i></button>
+            <button class="twitter"><i class="fab fa-twitter"></i></button>
+            <button class="pinterest"><i class="fab fa-pinterest-p"></i></button>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card-image">
+            <img src="93049d3f-0a94-40ea-8676-6a6037e4a5bc.jpg" alt="Profile image">
+        </div>
+        <p class="name">Alexandra Armas</p>
+        <p>Project Leader</p>
+        <p> My name is Alex, and I am honored to serve as the Project Leader for MIL Film. I had the opportunity to lead various successful projects, and I am excited to bring that experience to this initiative.</p>
+        <div class="socials">
+            <button class="github"><i class="fab fa-github"></i></button>
+            <button class="pinterest"><i class="fab fa-pinterest-p"></i></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="462563338_1293535311660950_828017719845491247_n.jpg" alt="Profile image">
+        </div>
+        <p class="name">Mark Andrei Cruz</p>
+        <p>Project Editor</p>
+        <p>Hello, my name is Mark Andrei, and I am the project editor for this MIL film. I have witnessed firsthand the critical role that editors play in enhancing the clarity, coherence, and overall effectiveness of communication.</p>
+        <div class="socials">
+            <button class="github"><i class="fab fa-github"></i></button>
+            <button class="twitter"><i class="fab fa-twitter"></i></button>
+        </div>
+        </div>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #54677c;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #e4e4e4;
+    display: flex;
+    /* Responsive behaviour */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 16px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    margin:  56px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.5),
+    0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+    width: 100%;
+    transform: scale(1.2);
+}
+
+p {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.name {
+    margin-top: 80px;
+    font-size: 1.4em;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 12px 8px;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.4s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button i {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+/* Social media colors */
+button.github {
+    background-color: #24292e;
+} 
+
+button.twitter {
+    background-color: #1da1f2;
+}
+
+button.pinterest {
+    background-color: #d3263a;
+} 
+</style>
+    
+</body>
+</html>
